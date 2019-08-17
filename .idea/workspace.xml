@@ -4,7 +4,6 @@
     <list default="true" id="cdb582fd-5466-4e87-9665-ebd4b8dc3d57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PessoaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PessoaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pessoa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pessoa/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pessoa/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pessoa/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -150,6 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566047671733</updated>
       <workItem from="1566047673244" duration="7432000" />
+      <workItem from="1566058895105" duration="711000" />
     </task>
     <servers />
   </component>
@@ -161,7 +161,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
