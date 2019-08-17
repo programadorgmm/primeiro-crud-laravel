@@ -49,10 +49,10 @@ class PessoaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Pessoa $id)
     {
 
-        return view('pessoa.show');
+        return view('pessoa.show',compact('pessoa',$id));
         //
     }
 

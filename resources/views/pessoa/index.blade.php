@@ -18,9 +18,9 @@
                         <td>{{ $pessoa->nome }}</td>
                         <td>{{ $pessoa->time }}</td>
                         <td>
-                            <button class="btn-success">Visualizar</button>
-                            <button class="btn-info">Editar</button>
-                            <button class="btn-danger">Deletar</button>
+                            <a href="{{ route('pessoas.show',['pessoa' => $pessoa->id]) }}"><button class="btn-success">Visualizar</button></a>
+                            <a href="#"><button class="btn-info">Editar</button></a>
+                            <a href="#"><button class="btn-danger">Deletar</button></a>
                         </td>
                     </tr>
                 @endforeach
