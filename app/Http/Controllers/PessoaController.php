@@ -78,6 +78,8 @@ class PessoaController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $pessoa = Pessoa::find($id)->update($request->all());
+        return redirect()->route('pessoas.index');
         //
     }
 
