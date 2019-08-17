@@ -118,8 +118,8 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'text'        => 'Crud',
+            'url'         => 'pessoas',
             'icon'        => 'far fa-file',
             'label'       => 4,
             'label_color' => 'success',

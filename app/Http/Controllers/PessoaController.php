@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Pessoa;
 
-class PessoaControler extends Controller
+class PessoaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,6 +14,8 @@ class PessoaControler extends Controller
      */
     public function index()
     {
+        $pessoas = Pessoa::all();
+        return view('pessoa.index',compact('pessoas'));
         //
     }
 
