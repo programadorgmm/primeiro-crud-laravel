@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb582fd-5466-4e87-9665-ebd4b8dc3d57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PessoaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PessoaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Pessoa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pessoa/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pessoa/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pessoa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pessoa/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566047671733</updated>
-      <workItem from="1566047673244" duration="5036000" />
+      <workItem from="1566047673244" duration="5423000" />
     </task>
     <servers />
   </component>
