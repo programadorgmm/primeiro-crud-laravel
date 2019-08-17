@@ -64,6 +64,8 @@ class PessoaController extends Controller
      */
     public function edit($id)
     {
+        $pessoa = Pessoa::find($id);
+        return view('pessoa.edit',compact('pessoa',$pessoa));
         //
     }
 

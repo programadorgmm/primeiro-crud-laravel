@@ -19,7 +19,7 @@
                         <td>{{ $pessoa->time }}</td>
                         <td>
                             <a href="{{ route('pessoas.show',['pessoa' => $pessoa->id]) }}"><button class="btn-success">Visualizar</button></a>
-                            <a href="#"><button class="btn-info">Editar</button></a>
+                            <a href="{{ route('pessoas.edit',['pessoa' => $pessoa->id]) }}"><button class="btn-info">Editar</button></a>
                             <a href="#"><button class="btn-danger">Deletar</button></a>
                         </td>
                     </tr>
