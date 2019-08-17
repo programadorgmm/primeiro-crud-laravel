@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
-        <form action="#" class="form-horizontal">
+        <form action=" {{ route('pessoas.store') }}" class="form-horizontal" method="POST">
+            @csrf
             <div class="row">
                 <div class="form-group">
                 <label>Nome Pessoa</label>

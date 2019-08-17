@@ -38,6 +38,8 @@ class PessoaController extends Controller
      */
     public function store(Request $request)
     {
+        Pessoa::create($request->all());
+        return redirect()->route('pessoas.index');
         //
     }
 

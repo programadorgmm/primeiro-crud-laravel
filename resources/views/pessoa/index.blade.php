@@ -1,3 +1,4 @@
 @foreach($pessoas as $pessoa)
-    {{$pessoa->nome}} -> {{$pessoa->time}}
+    {{$pessoa->nome}} -> {{$pessoa->time}}<br>
+
 @endforeach
