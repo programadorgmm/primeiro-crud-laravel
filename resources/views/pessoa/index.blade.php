@@ -2,10 +2,31 @@
 @section('content')
     <div class="container">
         <div class="col-md-12">
-@foreach($pessoas as $pessoa)
-    {{$pessoa->nome}} -> {{$pessoa->time}}<br>
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Acões</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach($pessoas as $pessoa)
+                    <tr>
+                        <th scope="row">{{ $pessoa->id }}</th>
+                        <td>{{ $pessoa->nome }}</td>
+                        <td>{{ $pessoa->time }}</td>
+                        <td>
+                            <button class="btn-success">Visualizar</button>
+                            <button class="btn-info">Editar</button>
+                            <button class="btn-danger">Deletar</button>
+                        </td>
+                    </tr>
+                @endforeach
 
-@endforeach
-    </div>
+                </tbody>
+            </table>
+        </div>
     </div>
 @endsection

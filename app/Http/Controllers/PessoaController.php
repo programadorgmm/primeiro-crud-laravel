@@ -51,6 +51,8 @@ class PessoaController extends Controller
      */
     public function show($id)
     {
+
+        return view('pessoa.show');
         //
     }
 
